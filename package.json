@@ -1,0 +1,34 @@
+{
+  "name": "vuejs-3-basic-setup",
+  "version": "1.0.0",
+  "description": "This project presents a basic template for vuejs 3",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolas-Pico/Vuejs3BasicSetup.git"
+  },
+  "keywords": [
+    "Vuejs",
+    "3",
+    "webpack",
+    "javascript"
+  ],
+  "author": "Nicolas Pico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicolas-Pico/Vuejs3BasicSetup/issues"
+  },
+  "homepage": "https://github.com/Nicolas-Pico/Vuejs3BasicSetup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "vue": "^3.2.44",
+    "vue-loader": "^17.0.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
