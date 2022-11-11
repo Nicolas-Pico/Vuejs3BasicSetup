@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "This project presents a basic template for vuejs 3",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.1",
     "vue": "^3.2.44",
     "vue-loader": "^17.0.1",
     "webpack": "^5.75.0",
